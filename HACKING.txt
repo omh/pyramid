@@ -212,7 +212,7 @@ using to develop Pyramid):
      $ cd ~/hack-on-pyramid/pyramid/docs
      $ make clean html SPHINXBUILD=$VENV/bin/sphinx-build
 
-   The ``SPHINXBUILD=...`` hair is there in order to tell it to use the
+   The ``SPHINXBUILD=...`` here is there in order to tell it to use the
    virtualenv Python, which will have both Sphinx and Pyramid (for API
    documentation generation) installed.
 
